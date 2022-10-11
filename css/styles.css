@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: rgb(8, 77, 8);
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+p, a {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+a:hover {
+    color:rgb(65, 13, 13);
+}
+a::after {
+    color:rgb(3, 14, 3); 
+}
+
+nav li a {
+    text-decoration: none;
+    color:rgb(33, 156, 33);
+    
+}
+.corner {
+    border-radius: 30px;
+}
+.corner-top {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+/* Inner Body CSS Elements */
+
+                                                                        /* Mobile Class */
+
+/* Header */
+
+
+
+/* Nav */
+
+
+
+
+/* Main */
+
+
+
+
+
+/* Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                        /* Tablet Class */
+
+/* Header */
+
+
+
+/* Nav */
+
+
+
+
+/* Main */
+
+
+
+
+
+/* Footer */
+
+
+
+
+
+
+
+                                                                         /* Desktop Class */ 
+
+/* Header */
+header {
+    padding-top: 2%; 
+    margin: 3% 30% 3% 30%; 
+    text-align: center;
+}
+header p { 
+    text-align: center;
+}
+/* Nav */
+
+nav {
+    margin: 1% auto;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    
+}
+nav li {
+    display: inline-block;
+    padding: 0%;
+    margin: 0% 11%
+}
+
+
+/* Main */
+
+main {
+    margin: 10% 0% 50% 0%;
+    padding: 0% 2% 0% 2%;
+    
+}
+main p {
+    margin-top: 1%;
+}
+
+/* Footer */
+
+footer {
+    margin: 4% auto;
+    text-align: center;
+}
+.footer-container-top {
+    background-color: rgb(0, 0, 0);
+    padding: 2%;
+    margin: 0%;
+    border-right: 1px solid green;
+    border-left: 1px solid green;
+    border-top: 1px solid green;
+}
+.footer-container-bottom {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 02%;
+    margin: 0%; 
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom: 1px solid green;
+    border-right: 1px solid green;
+    border-left: 1px solid green;
+}
+.footer-container-bottom p {
+    display: inline-block;
+    margin: 0% 8%;
+    
+}
+.footer-container-bottom p a{
+    text-decoration: none;
+    color: rgb(8, 77, 8);
+}
+.footer-container-bottom p a:hover{
+    text-decoration: none;
+    color:rgb(65, 13, 13);
+}
+/* Classes and IDs */
+.body-container {
+    background-color: rgba(46, 43, 43, 0.35);
+    margin: 0% 30% 0% 30%;
+    box-shadow: 0px 0px 110px rgb(65, 13, 13);
+}
+.main-container {
+    background-color: rgb(0, 0, 0);
+    padding: 2%;
+    border: 1px solid green;
+}
+.home-image {
+  margin: 3% 37%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px black;
+}
