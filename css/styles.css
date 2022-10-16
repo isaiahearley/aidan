@@ -50,7 +50,7 @@ nav li a {
 /* Header */
 header {
     padding-top: 2%; 
-    margin: 3% 30% 3% 30%; 
+    margin: 3% 2% 3% 2%; 
     text-align: center;
 }
 header p { 
@@ -127,7 +127,7 @@ footer p {
 /* Classes and IDs */
 .body-container {
     background-color: rgba(46, 43, 43, 0.35);
-    margin: 0% 2% 0% 2%;
+    margin: 2% 1% 2% 1%;
     box-shadow: 0px 0px 110px rgb(65, 13, 13);
     border-left: 1px solid rgb(33, 156, 33);
     border-right: 1px solid rgb(33, 156, 33);
@@ -143,18 +143,15 @@ footer p {
   border-radius: 30px;
   box-shadow: 0px 0px 40px black;
 }
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
                                                                          /* Desktop Class */ 
 @media all and (min-width: 769px) {
 .mobile {
@@ -166,7 +163,7 @@ footer p {
 /* Header */
 header {
     padding-top: 2%; 
-    margin: 3% 30% 3% 30%; 
+    margin: 3% 4% 3% 4%; 
     text-align: center;
 }
 header p { 
@@ -243,7 +240,7 @@ footer p {
 /* Classes and IDs */
 .body-container {
     background-color: rgba(46, 43, 43, 0.35);
-    margin: 0% 30% 0% 30%;
+    margin: 0% 20% 0% 20%;
     box-shadow: 0px 0px 110px rgb(65, 13, 13);
     border-left: 1px solid rgb(33, 156, 33);
     border-right: 1px solid rgb(33, 156, 33);
