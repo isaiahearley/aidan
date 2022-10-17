@@ -40,67 +40,17 @@ nav li a {
 /* Inner Body CSS Elements */
 
                                                                         /* Mobile Class */
-
-/* Header */
-
-
-
-/* Nav */
-
-
-
-
-/* Main */
-
-
-
-
-
-/* Footer */
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                        /* Tablet Class */
-
-/* Header */
-
-
-
-/* Nav */
-
-
-
-
-/* Main */
-
-
-
-
-
-/* Footer */
-
-
-
-
-
-
-
-                                                                         /* Desktop Class */ 
-
+@media all and (min-width: 300px) and (max-width: 768px) {
+.mobile {
+    display: block;
+}
+.tablet-desktop {
+    display: none;
+}
 /* Header */
 header {
     padding-top: 2%; 
-    margin: 3% 30% 3% 30%; 
+    margin: 3% 2% 3% 2%; 
     text-align: center;
 }
 header p { 
@@ -126,12 +76,12 @@ nav li {
 /* Main */
 
 main {
-    margin: 10% 0% 30% 0%;
+    margin: 5% 0% 5% 0%;
     padding: 0% 2% 0% 2%;
     
 }
 main p {
-    margin-top: 1%;
+    margin-top: 4%;
 }
 
 /* Footer */
@@ -177,7 +127,11 @@ footer p {
 /* Classes and IDs */
 .body-container {
     background-color: rgba(46, 43, 43, 0.35);
+<<<<<<< HEAD:css/styles.css
     margin: 1% 30% 0% 30%;
+=======
+    margin: 2% 1% 2% 1%;
+>>>>>>> 45baead53111e34188bf7625e91a544e8be522ca:styles.css
     box-shadow: 0px 0px 110px rgb(65, 13, 13);
     border-left: 1px solid rgb(33, 156, 33);
     border-right: 1px solid rgb(33, 156, 33);
@@ -192,4 +146,118 @@ footer p {
   margin: 3% 37%;
   border-radius: 30px;
   box-shadow: 0px 0px 40px black;
+}
+}
+
+
+
+
+
+
+
+
+                                                                         /* Desktop Class */ 
+@media all and (min-width: 769px) {
+.mobile {
+    display: none;
+}
+.tablet-desktop {
+    display: block;
+}
+/* Header */
+header {
+    padding-top: 2%; 
+    margin: 3% 4% 3% 4%; 
+    text-align: center;
+}
+header p { 
+    text-align: center;
+}
+/* Nav */
+
+nav {
+    margin: 1% auto;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    
+}
+nav li {
+    display: inline-block;
+    padding: 0%;
+    margin: 0% 11%
+}
+
+
+/* Main */
+
+main {
+    margin: 5% 0% 5% 0%;
+    padding: 0% 2% 0% 2%;
+    
+}
+main p {
+    margin-top: 4%;
+}
+
+/* Footer */
+
+footer {
+    margin: 4% auto;
+    text-align: center;
+}
+footer p {
+    color: rgb(33, 156, 33)
+}
+.footer-container-top {
+    background-color: rgb(0, 0, 0);
+    padding: 2%;
+    margin: 0%;
+    border-right: 1px solid green;
+    border-left: 1px solid green;
+    border-top: 1px solid green;
+}
+.footer-container-bottom {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 2%;
+    margin: 0%; 
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom: 1px solid green;
+    border-right: 1px solid green;
+    border-left: 1px solid green;
+}
+.footer-container-bottom p {
+    display: inline-block;
+    margin: 0% 8%;
+    
+}
+.footer-container-bottom p a{
+    text-decoration: none;
+    color: rgb(33, 156, 33);
+}
+.footer-container-bottom p a:hover{
+    text-decoration: none;
+    color:rgb(65, 13, 13);
+}
+/* Classes and IDs */
+.body-container {
+    background-color: rgba(46, 43, 43, 0.35);
+    margin: 0% 20% 0% 20%;
+    box-shadow: 0px 0px 110px rgb(65, 13, 13);
+    border-left: 1px solid rgb(33, 156, 33);
+    border-right: 1px solid rgb(33, 156, 33);
+    border-top: 1px solid rgb(33, 156, 33);
+}
+.main-container {
+    background-color: rgb(0, 0, 0);
+    padding: 2%;
+    border: 1px solid green;
+}
+.home-image {
+  margin: 3% 37%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px black;
+}
 }
